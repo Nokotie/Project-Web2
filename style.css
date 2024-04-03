@@ -1,5 +1,24 @@
 #menuhatter{
-    background-color: blue;
-    background-image: url(wp1835111.jpg);
+    background-image: url(images/menubackground.jpg);
     background-size: cover;
+}
+
+#menumaintext{
+    text-align: center;
+    margin-bottom: 420px;
+}
+
+#menu{
+    text-align: center;
+}
+
+@font-face {
+    font-family: "BBFont";
+    src: url("font/Augusta.ttf");
+}
+
+body{
+    font-family: "BBFont",sans-serif;
+    font-size: 50px;
+    color: white;
 }
